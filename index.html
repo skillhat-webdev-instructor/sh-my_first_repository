@@ -1,22 +1,42 @@
 <!DOCTYPE html>
-<!-- this doctype tag tells the browser that this file is of type HTML -->
-<html lang="en">
-<!-- this html tag tells the browser that the CODE is of type HTML -->
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <!-- this sets up the web page to be mobile friendly. (first) mobile responsive-->
-        <title>Home</title>
-        <!-- the title tag displays the title of the page in a browser tab -->
-    </head>
-    <!-- the head tags tells the browser that the code inside it needs to executed first -->
-    <body>
-        <p style="color:red;font-size:large">navbar goes here</p>
-        <h1>my hello heading.</h1>
-        <!-- this is an H1 Heading-->
-        <img src="https://skillhat.ca/wp-content/uploads/elementor/thumbs/skillhat-bluelogo-q852snepj62iecf6wivc03epaac6y2mv28a2vwo3xk.png" />
-        <p>Hello World</p>
-        <!-- this is a paragraph tag that blocks a bunch of text into a paragraph -->
-    </body>
-            <!-- the body tag contains the content that is physically web browser itself. -->
+<html lang="en-us">
+
+<head>
+  <meta charset="UTF-8">
+  <title>CSS Stylesheets with Relative Paths</title>
+
+  <!-- This line is money! It points your HTML to the CSS file. -->
+  <!-- Notice the "relative" pathway? It matches a file inside our current directory's "assets" folder. Open it to see our style rules. -->
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+
+</head>
+
+<body>
+  <header>
+    <h1>Student Bio</h1>
+  </header>
+
+  <div class="container">
+
+    <section id="main-bio">
+
+      <h2>Edward Apostol</h2>
+
+      <img id="bio-image" src="https://placehold.it/200x200" alt="Your Name">
+
+      <p>Write a short paragraph or two about yourself, or use placeholder text from <a href="http://www.lipsum.com/">www.lipsum.com</a></p>
+    </section>
+
+    <section id="contact-info">
+      <h2>Contact Info</h2>
+      <ul>
+        <li><strong>Email:</strong> <a href="#">someplace@gmail.com</a></li>
+        <li><strong>Github:</strong> <a href="#">sampleName</a></li>
+        <li><strong>Portfolio:</strong> <a href="#">coming soon</a></li>
+      </ul>
+    </section>
+  </div>
+
+</body>
+
 </html>
