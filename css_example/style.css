@@ -1,0 +1,11 @@
+#centered-text {
+    text-align: center;
+    font-size:2in;
+    color:forestgreen
+}
+
+.styledFont {
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-size: 1.5in;
+    color: red;
+}
